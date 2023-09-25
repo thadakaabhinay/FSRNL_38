@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3c4956;
+    height: 40px;
+    border-top-left-radius: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-1{
+    color: white;
+}
+.menu{
+    border: 1px dotted rgb(116, 112, 112);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+.content > h1{
+    font-family: monospace;
+}
+.content{
+    text-align: center;
+    margin-top: 60px;
+    /* font-family: monospace; */
+  
+}
+button{
+    padding:6px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.button-1{
+    background-color: rgb(9, 131, 253);
+}
+.button-2{
+    background-color:grey;
+}
+.button-1:hover{
+    background-color: blue;
+}
+.button-2:hover{
+    background-color:rgb(179, 174, 174) ;
+}
+.photos{
+    /* width:30%; */
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.galary {
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(225, 215, 215);
+
+
+}
+.galary div p{
+    padding-left:10px;
+    color: rgb(77, 62, 62);
+}
+.bottom{
+    display: flex;
+    color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom >div > button{
+    color: grey;
+    background-color: white;
+    border: 1px solid;
+    
+}
+.bottom >div > button:hover{
+    background-color: gray;
+    color: white;
+}
+footer{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    color: grey;
+    font-size: small;
+    font-family:monospace;
+}
+footer a{
+    text-decoration: none;
+}
